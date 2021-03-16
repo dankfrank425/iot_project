@@ -45,8 +45,6 @@
 - add telegraf user to i2c-users with "sudo adduser telegraf i2c"
 - reboot your pi (sudo reboot)
 - test config with telegraf --test (output should be your sensor values)
-- # change permission on /dev/i2c-1 with command "chmod 777 /dev/i2c-1"
-- # start telegraf with telegraf --config /etc/telegraf/telegraf.conf
 
 
 - open browser and access http://YOUR_PI_IP:3000 to access the grafana dashboard
